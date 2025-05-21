@@ -41,24 +41,24 @@ Testing means checking if our code works the way we expect. In React apps, we wr
 
 ### Tools for Testing React App:
 - [Jest](https://jestjs.io/)
- * Jest is the framework we use to run our tests => command line test runner
- * Jest expect() provide general JS assertions `toBe()`, `toHaveBeenCalled()`
- * Comes with `create-react-app`, so no need to configure
- * `npm run test` will start Jest in watch mode and run the tests
+	* Jest is the framework we use to run our tests => command line test runner
+	* Jest expect() provide general JS assertions `toBe()`, `toHaveBeenCalled()`
+	* Comes with `create-react-app`, so no need to configure
+	* `npm run test` will start Jest in watch mode and run the tests
 
 - [DOM Testing Library](https://testing-library.com/docs/dom-testing-library/intro/)
- * Provides functions for querying the DOM
- * The main utilities it provides involve querying the DOM for nodes in a way that's similar to how the user finds elements on the page
+	* Provides functions for querying the DOM
+	* The main utilities it provides involve querying the DOM for nodes in a way that's similar to how the user finds elements on the page
 
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
- * Built on top of DOM Testing Library.
- * It provides utilities specific to testing React components
- * Allows us to test like the way our app is used
+	* Built on top of DOM Testing Library.
+	* It provides utilities specific to testing React components
+	* Allows us to test like the way our app is used
 
 - [JestDOM](https://github.com/testing-library/jest-dom)
- * JestDOM provides matchers that are useful for DOM testing
- * It adds custom matchers that make it easier to check for things in the browser-like UI. 
- * Checking for an element's attributes, its text content, its css classes. (like `.toBeInTheDocument()`, `.toHaveClass()` or `.toBeVissible()`)
+	* JestDOM provides matchers that are useful for DOM testing
+	* It adds custom matchers that make it easier to check for things in the browser-like UI. 
+	* Checking for an element's attributes, its text content, its css classes. (like `.toBeInTheDocument()`, `.toHaveClass()` or `.toBeVissible()`)
 
 
 ### Add features/tests to our 90% completed app
