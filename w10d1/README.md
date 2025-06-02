@@ -16,7 +16,7 @@
 
 ### MVC Framework (Model-View-Controller)
 
-![image](/rails%20mvc.png)
+![image](./rails%20mvc.png)
 
 ### Model
 
