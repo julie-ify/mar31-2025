@@ -1,0 +1,12 @@
+<h1>View all the Players</h1>
+
+<%= link_to "View Teams", teams_path %>
+<div>
+	<% @players.each do |player| %>
+		<div class="players">
+			<h3>Player's name: <%= player.name %></h3>
+			<h3>Player's position: <%= player.position %></h3>
+			<h3>Player's Team: <%= player.team.name %></h3>
+		</div>
+	<% end %>
+</div>
